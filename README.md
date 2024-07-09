@@ -12,11 +12,12 @@
 
 ## Installation
 
-* The library is still under development and not yet ready for production use.
+The library is still under development and not yet ready for production use.
+
 ~~You can install `LoggingStream` via pip:~~
 
 ```sh
-~~pip install loggingstream~~
+pip install loggingstream
 ```
 
 ## Usage
