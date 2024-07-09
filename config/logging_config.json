@@ -1,0 +1,19 @@
+{
+    "logger": {
+      "name": "my_logger",
+      "level": "DEBUG",
+      "handlers": [
+        {
+          "type": "StreamHandler",
+          "formatter": "ColoredFormatter"
+        },
+        {
+          "type": "RotatingFileHandler",
+          "filename": "app.log",
+          "maxBytes": 1000000,
+          "backupCount": 3,
+          "formatter": "JSONFormatter"
+        }
+      ]
+    }
+  }
